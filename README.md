@@ -1,12 +1,12 @@
 # Bug
 
 *Bug* is a simple todo-tracking system for the unix commandline.
-It's written in POSIX sh, and it only requires the typical Unix utilities: grep, cut, tr, ...
+It's written in POSIX `sh`, and it only requires the typical Unix utilities: `grep`, `cut`, `tr`, ...
 It should probably work with a small busybox.
 The lack of dependencies was the biggest motivation for its development.
 
 Its database format is a text file containing simple tabbed columns which can be even hand-edited.
-It uses $EDITOR for submitting or editing the issues and for changing states or priorities.
+It uses `$EDITOR` for submitting or editing the issues and for changing states or priorities.
 It relies on four fixed fields: ID, Priority, State, and Subject.
 There is also a fifth free-text field for any other information you may want to store about the issue.
 There is no database locking or notifications, so it's mostly for tracking the user's own issues.
@@ -15,7 +15,7 @@ You can look at a screenshot if you want.
 
 ![bug-shot.png](bug-shot.png)
 
-Download the latest version (GPL 2 or later licensed): [bug.gz](bug.gz) - v1.1 (The manual is in the header of the file)
+Download the latest version (licensed under GPL 3 or later): [bug.gz](bug.gz) - v1.1 (The manual is in the header of the file)
 
 Look at the version repository[^original-repo] if you are interested in its development.
 
@@ -54,6 +54,6 @@ Copy of the manual at v1.1
 #
 ```
 
-Author: [Lluís Batlle i Rossell], viric_at_vicerveza_dot_homeunix_dot_net
+Original Author: [Lluís Batlle i Rossell], viric@vicerveza.homeunix.net
 
 [Lluís Batlle i Rossell]: http://vicerveza.homeunix.net/~viric/
