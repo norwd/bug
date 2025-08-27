@@ -15,9 +15,12 @@ You can look at a screenshot if you want.
 
 ![bug-shot.png](bug-shot.png)
 
-Download the latest version (GPL 2 or later licensed): [bug.gz](https://viric.name/soft/bug/bug.gz) - v1.1 (The manual is in the header of the file)
+Download the latest version (GPL 2 or later licensed): [bug.gz](bug.gz) - v1.1 (The manual is in the header of the file)
 
-Look at the version repository if you are interested in its development.
+Look at the version repository[^original-repo] if you are interested in its development.
+
+[^original-repo]: This was originally hosted at https://viric.name/~viric/cgi-bin/hgwebdir.cgi/bug
+  However, this link is now dead and no copy of it was available on the internet archive.
 
 ## Manual
 
@@ -51,4 +54,6 @@ Copy of the manual at v1.1
 #
 ```
 
-Author: Lluís Batlle i Rossell, viric_at_vicerveza_dot_homeunix_dot_net
+Author: [Lluís Batlle i Rossell], viric_at_vicerveza_dot_homeunix_dot_net
+
+[Lluís Batlle i Rossell]: http://vicerveza.homeunix.net/~viric/
