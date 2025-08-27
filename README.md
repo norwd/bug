@@ -13,6 +13,8 @@ There is no database locking or notifications, so it's mostly for tracking the u
 
 You can look at a screenshot if you want.
 
+![bug-shot.png](https://viric.name/soft/bug/bug-shot.png)
+
 Download the latest version (GPL 2 or later licensed): bug.gz - v1.1 (The manual is in the header of the file)
 
 Look at the version repository if you are interested in its development.
