@@ -60,7 +60,7 @@ Copy of the manual at v1.1
    ```sh
    bug edit
    ```
-   Change the state, the priority, add data as long as you fix it, ...
+   Change the state, the priority, add data as long as you fix it...
    When I consider an issue is fulfilled, I negate its priority.
 6. Delete an issue
    ```sh
