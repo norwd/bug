@@ -33,7 +33,7 @@ Copy of the manual at v1.1
    Use an absolute path.
    It may be, for instance, `~/todo.bug`
 
-### Having the $BUG_PROJECT set
+#### Having set the `$BUG_PROJECT`
 
 1. Create the database:
    ```sh
