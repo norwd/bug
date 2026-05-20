@@ -26,33 +26,47 @@ Look at the version repository[^original-repo] if you are interested in its deve
 
 Copy of the manual at v1.1
 
-```sh
-# Instructions:
-#  1. Your $BUG_PROJECT should point to a file. It will be the database you'll
-#     be using. Use an absolute path. It may be, for instance, "~/todo.bug"
-#
-#  Having the $BUG_PROJECT set:
-#  1. Create the database:
-#      bug create
-#  2. Add an issue
-#      bug add
-#     Use integers for the priorities. Higher -> more priority.
-#     Use any words you prefer for the state
-#     Don't break the number of lines until "-- Description --". Write
-#     multilines only below that label.
-#  3. List the issues (all but description, priority sorted)
-#      bug list [ | grep as_you_wish ]
-#  4. View an issue
-#      bug view 
-#  5. Edit an issue
-#      bug edit 
-#     Change the state, the priority, add data as long as you fix it, ...
-#     When I consider an issue is fulfilled, I negate its priority.
-#  6. Delete an issue
-#      bug delete 
-#     Do that whenever you will not need the issue anymore.
-#
-```
+### Instructions
+
+0. Your `$BUG_PROJECT` should point to a file.
+   It will be the database you'll be using.
+   Use an absolute path.
+   It may be, for instance, `~/todo.bug`
+
+### Having the $BUG_PROJECT set
+
+1. Create the database:
+   ```sh
+   bug create
+   ```
+2. Add an issue
+   ```sh
+   bug add
+   ```
+   Use integers for the priorities.
+   Higher -> more priority.
+   Use any words you prefer for the state
+   Don't break the number of lines until "-- Description --". Write
+   multilines only below that label.
+3. List the issues (all but description, priority sorted)
+   ```sh
+   bug list # | grep as_you_wish
+   ```
+4. View an issue
+   ```sh
+   bug view
+   ```
+5. Edit an issue
+   ```sh
+   bug edit
+   ```
+   Change the state, the priority, add data as long as you fix it, ...
+   When I consider an issue is fulfilled, I negate its priority.
+6. Delete an issue
+   ```sh
+   bug delete
+   ```
+   Do that whenever you will not need the issue anymore.
 
 Original Author: [Lluís Batlle i Rossell], viric@vicerveza.homeunix.net
 
